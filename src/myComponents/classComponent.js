@@ -4,9 +4,9 @@ class Welcome extends Component
 {
         render()
         {
-                return <h2>Hello Class Component</h2>
+                return <h3>I am from {this.props.name}</h3>
         }
         
 }
 
-export default Welcome
+export default Welcome;
